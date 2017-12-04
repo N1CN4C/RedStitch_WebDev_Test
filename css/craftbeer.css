@@ -1,0 +1,251 @@
+/* Global */
+body {
+  font-family: "Open Sans", Verdana, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: #4f5858;
+  max-width: 960px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: "Roboto Bold", Verdana, sans-serif;
+  font-weight: normal;
+}
+
+.container {
+  width: 480px;
+  margin: auto;
+  overflow: hidden;
+}
+/*
+section {
+  border: 5px solid red;
+}
+*/
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+strong {
+  font-weight: bold;
+  color: #296ba4;
+}
+
+/* Header */
+header {
+  min-height: 82px;
+  color: #4f5858;
+  padding: 30px 0px 20px 0px;
+  font-size: 10px;
+}
+
+header p {
+  text-align: right;
+  padding-right: 15px;
+}
+
+/* Aspot */
+#aspot {
+  min-height: 541px;
+  background: url("../img/Aspot-Image.jpg") no-repeat;
+  color: #ffffff;
+}
+
+#input-frame {
+  width: 480px;
+  height: 480px;
+  background-color: rgba(169, 46, 0, 0.8);
+}
+
+#input-frame h1 {
+  margin: 50px 50px 50px 50px;
+  font-size: 18px;
+}
+
+#input-frame p {
+  margin: 0px 50px;
+  font-size: 14px;
+}
+
+#input-frame form {
+  margin: 30px 50px 0px;
+}
+
+#input-frame input {
+  padding-left: 23px;
+  margin-bottom: 5px;
+  width: 365px;
+  height: 60px;
+  font-size: 12;
+  border: 1px solid #00486e;
+}
+
+#input-frame button {
+  width: 390px;
+  height: 60px;
+  text-align: left;
+  font-size: 12px;
+  color: #ffffff;
+  padding-left: 11px;
+  background: #00486e;
+  border: 0;
+  border-bottom: 3px solid #296ba4;
+}
+
+.fa-search {
+  color: #296ba4;
+  padding-right: 10px;
+}
+
+/* Benefits */
+#benefits {
+  padding: 60px 0px 0px 0px;
+  clear: both;
+}
+
+#vid p {
+  font-size: 10px;
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+
+#info h1 {
+  font-size: 13px;
+  margin: 0px 0px 40px 40px;
+}
+
+#info p {
+  font-size: 12px;
+  margin: 0px 0px 0px 40px;
+}
+
+.icon-box {
+  margin-bottom: 30px;
+}
+
+.icon-box img {
+  float: left;
+  margin-left: 32px;
+}
+
+.divider {
+  color: #e5e5e5;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.divider hr {
+  width: 185px;
+  color: #e5e5e5;
+  margin-top: 12px;
+}
+
+#info ul {
+  margin-left: 0px;
+  list-style: none;
+}
+
+#info .fa-chevron-right {
+  margin-right: 5px;
+}
+
+.columns {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+#cta-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 40px;
+  color: #c44d00;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#cta-link .fa-chevron-right {
+  margin-left: 20px;
+}
+
+/* Testimonial */
+#testimonial {
+  min-height: 320px;
+  margin: 0px;
+  padding: 60px 0px 0px 0px;
+  background: url("../img/Quote-Image1.jpg") 0px 60px no-repeat;
+  color: #ffffff;
+  clear: both;
+}
+
+#background {
+  height: 320px;
+  width: 480px;
+  background-color: #00486e;
+}
+
+#quote {
+  height: 260px;
+  width: 420px;
+  background-color: #00486e;
+  border: 1px solid #296ba4;
+  margin: 30px;
+}
+
+#quote h1 {
+  font-family: "Merriweather", 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin: 25px 30px 20px;
+}
+
+#quote p {
+  font-size: 12px;
+  margin: 0px 60px;
+}
+
+/* Footer */
+footer {
+  max-height: 246px;
+  background: #f0f0f0;
+  color: #4f5858;
+  font-size: 9px;
+  clear: both;
+  padding: 58px 65px 95px 0px;
+}
+
+footer p {
+  margin: 0;
+}
+
+#logo3 {
+  margin: 0px 48px 0px 53px;
+}
+
+/* unvisited link */
+footer a:link {
+  color: blue;
+}
+
+/* visited link */
+footer a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+footer a:hover {
+  color: red;
+}
+
+/* selected link */
+footer a:active {
+  color: yellow;
+}
